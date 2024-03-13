@@ -19,6 +19,10 @@ Pipe: A pipe can be used to have the output of one command be the input of anoth
 
 [Source 2: Using the echo command](https://runcloud.io/blog/echo-command-in-linux)
 
+[Source 3: Using the grep command](https://stackoverflow.com/questions/9074353/terminal-command-to-find-lines-containing-a-specific-word)
+
+[Source 4: 15 practical grep command examples](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+
 ### Experienced problems
 Reading this assingment confused my brain in the beginning. The solution was to take each new term, and take the time to individually learn about them. Clarity soon followed.
 
