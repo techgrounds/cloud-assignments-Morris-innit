@@ -45,8 +45,27 @@ Dynamic address: A dynamic address is an address that does change. The DHCP (Dyn
 
 [Source 4: Static & Dynamic IP addresses](https://www.security.org/vpn/static-vs-dynamic-ip-address/)
 
+[Source 5: What happens when you change the private IP address of one host to that of another host on the same network? Answered by Chat GPT](https://chat.openai.com/c/8d150b5d-9b2d-4779-9fad-ffdb7bdab719)
+
 ### Experienced problems
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+
 
 ### Result
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+I’m not able to go into my router, so all answers given are done through sources online.  
+
+-	Find out what your public IP address is of your laptop and mobile on wifi.  
+    -  Are the addresses the same or not? Explain why.  
+        -   The addresses are the same. This is because each network shares one public IP address.  
+
+-	Find out what your private IP address is of your laptop and phone on wifi.  
+    -	Are the addresses the same or not? Explain why.
+        -   These addresses are not the same. This is because private addresses are created to distinguish devices within a network without having to use multiple public IP addresses.   
+
+-	Change the private IP address of your phone to that of your laptop. What happens?
+    -   The long answer can be found in source 5. The short answer is that both hosts will probably experience connectivity issues because of an IP address conflict.  
+
+-	Try to change the IP address of your phone to an address outside of your network. What happens?
+    -   The host will simply not be able to connect to the network. 
+
+
