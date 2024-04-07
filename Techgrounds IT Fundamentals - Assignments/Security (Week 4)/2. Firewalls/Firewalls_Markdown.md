@@ -52,16 +52,31 @@ Firewall software: An internal firewall that is set up on each computer to inspe
 
 
 ### Experienced problems
-I was unable to view the standard webpage for reasons I don't yet understand. I'll continue tomorrow.
+I was unable to view the standard webpage for reasons I don't yet understand. I'll continue tomorrow.       So, tomorrow has come, and I've found out with the help of a classmate that I was simply not using my web port. It was given to us, but we hadn't needed it until now, so it had completely slipped my mind. I was trying to solve something that never needed solving.
 
 ### Result
 Tasks:
 -   Install a webserver on your VM.
-    -	This is done with the command : sudo apt-get install apache2
+    -	This is done with the command : sudo apt-get install apache2. See image 1 & 2.
 -   View the standard page that is installed with the webserver. Do this on your browser on your pc/laptop.
-    -	First I need to allow my IP address to access the webpage. This is done by adding it in the 000_default.conf file as a listen directive, before to colon sitting infront of the port nr. (see image) This file is found in the /etc/apache2/sites-available directory. 
-    -	Then restart apache2
-    -	This didn’t work, so now I’m adding the IP address in my firewall to allow it with the following command: sudo iptables -A INPUT -s xxx.xxx.xxx.xxx -j ACCEPT
+    -	This is done by typing in the VM's IP address and web port nr. See image 3 for result. (In favour of proper security etiquette, I blocked out the IP Address. this makes proving I did the task right harder, but I think proper security etiquette trumps that.)
 -   Set the firewall to block web traffic, but allow ssh-traffic.
+    - See image 4.
 -   Control if the firewall does its job.
+    - See image 5. The webpage is no longer accessible. 
+
+1. 
+![Image 1](Proof_of_Success_1.png)  
+
+2. 
+![Image 2](Proof_of_Success_2.png)  
+
+3. 
+![Image 3](Proof_of_Success_3.png)  
+
+4. 
+![Image 4](Proof_of_Success_4.png)  
+
+5. 
+![Image 5](Proof_of_Success_5.png)
 
