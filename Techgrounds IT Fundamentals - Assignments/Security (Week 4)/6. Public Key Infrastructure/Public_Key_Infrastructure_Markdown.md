@@ -35,6 +35,8 @@ Root CA: As I understand it, a root CA is a root Certificate Authority certifica
 
 [Source 6: What is Root CA?](https://venafi.com/blog/what-difference-between-root-certificates-and-intermediate-certificates/)
 
+[Source 7: Chat GPT helping along](https://chat.openai.com/c/ee726009-f1a5-4567-a9d2-0e10b99032d1)
+
 ### Experienced problems
 I don't think I've done the certificate perfectly. I can find everything I need, so I think it's all fine, but I feel as though things aren't in the right place. This is because Chat GPT sent me towards a specific path where I did not find the trusted certificate roots.
 
