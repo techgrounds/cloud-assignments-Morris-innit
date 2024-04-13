@@ -57,26 +57,15 @@ I was unable to view the standard webpage for reasons I don't yet understand. I'
 ### Result
 Tasks:
 -   Install a webserver on your VM.
-    -	This is done with the command : sudo apt-get install apache2. See image 1 & 2.
+    -	This is done with the command : sudo apt-get install apache2.
+    ![Image 1](Proof_of_Success_1.png)
+    ![Image 2](Proof_of_Success_2.png)
 -   View the standard page that is installed with the webserver. Do this on your browser on your pc/laptop.
-    -	This is done by typing in the VM's IP address and web port nr. See image 3 for result. (In favour of proper security etiquette, I blocked out the IP Address. this makes proving I did the task right harder, but I think proper security etiquette trumps that.)
+    -	This is done by typing in the VM's IP address and web port nr.(In favour of proper security etiquette, I blocked out the IP Address. this makes proving I did the task right harder, but I think proper security etiquette trumps that.)
+    ![Image 3](Proof_of_Success_3.png)
 -   Set the firewall to block web traffic, but allow ssh-traffic.
-    - See image 4.
+    ![Image 4](Proof_of_Success_4.png)
 -   Control if the firewall does its job.
-    - See image 5. The webpage is no longer accessible. 
-
-1. 
-![Image 1](Proof_of_Success_1.png)  
-
-2. 
-![Image 2](Proof_of_Success_2.png)  
-
-3. 
-![Image 3](Proof_of_Success_3.png)  
-
-4. 
-![Image 4](Proof_of_Success_4.png)  
-
-5. 
-![Image 5](Proof_of_Success_5.png)
+    - The webpage is no longer accessible. 
+    ![Image 5](Proof_of_Success_5.png)
 
