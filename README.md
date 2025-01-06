@@ -1,1 +1,1 @@
-Welcome to my Techgrounds repository! Here you'll find all the exercises I did in the course. 
+Welcome to my Techgrounds repository! Here you'll find all the exercises I did on the course. 
